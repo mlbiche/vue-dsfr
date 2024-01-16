@@ -102,6 +102,10 @@ const composants = [
     link: '/composants/DsfrConsent.md',
   },
   {
+    text: 'DsfrFileDownload',
+    link: '/composants/DsfrFileDownload.md',
+  },
+  {
     text: 'DsfrRange',
     link: '/composants/DsfrRange.md',
   },
