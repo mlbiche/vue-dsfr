@@ -42,6 +42,11 @@ const onChange = ($event: InputEvent) => {
     >
       {{ label }}
       <span
+        v-if="$attrs.required"
+        class="required"
+      >&nbsp;*</span>
+
+      <span
         v-if="hint"
         class="fr-hint-text"
       >{{ hint }}</span>
